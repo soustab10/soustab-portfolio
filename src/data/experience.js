@@ -1,9 +1,33 @@
 const experience = [
   {
     id: 0,
-    date: "July 2023 - Present",
-    position: "Software Developer",
-    company: "Drobot Inc",
+    date: "May 2025 – Jul 2025",
+    position: "Associate Member of Technical Staff Intern",
+    company: "Salesforce",
+    url: "https://www.salesforce.com/",
+    description: [
+      {
+        id: 1,
+        description:
+          "Worked with ApexGuru team developing Test-Cases Anti-pattern feature on Salesforce Core Platform which provides AI powered automated diagnosis and recommendations for unit tests, aiming to improve runtime performance.",
+      },
+      {
+        id: 2,
+        description:
+          "Worked on the ApexGuru backend repository and Gater microservices to integrate Test Case Anti-pattern detection and implementing Impact Metrics to quantify performance improvements achieved through anti-pattern resolution.",
+      },
+      {
+        id: 3,
+        description:
+          "Feature was deployed to production, showcased in HCC Monthly Product Demo, detecting 15,400+ anti-patterns across 890 customer organizations within a week of deployment.",
+      },
+    ],
+  },
+  {
+    id: 1,
+    date: "July 2023 – May 2025",
+    position: "Software Developer Intern",
+    company: "Drobot Inc.",
     url: "http://www.drobot.ai/",
     description: [
       {
@@ -24,7 +48,7 @@ const experience = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     date: "June 2023 - November 2023",
     position: "Technical Team Head & Software Developer",
     company: "FMC Weekend 2023",
@@ -43,7 +67,7 @@ const experience = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     date: "November 2022 - March 2023",
     position: "UI/UX Developer and Tech Team Executive",
     company: "Technex 2023",
@@ -67,7 +91,7 @@ const experience = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     date: "November 2022 - February 2023",
     position: "Tech Team Executive",
     company: "FMC Weekend 2022",
@@ -86,7 +110,7 @@ const experience = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     date: "January 2023 - February 2023",
     position: "Open Source Contributor",
     company: "Creative Commons",
@@ -105,7 +129,7 @@ const experience = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     date: "October 2022",
     position: "Open Source Contributor",
     company: "Clueless-Community",
